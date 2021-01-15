@@ -15,9 +15,9 @@ This website is hosted via [Github Pages](https://pages.github.com/).
 
 ## Updating the README
 
-Due to weird compatability issues with READMEs in RMarkdown website, use
-the following after updating the README (followed by a build of the the
-website).
+Due to weird compatability issues with README’s in RMarkdown website,
+use the following after updating the README (followed by a build of the
+the website).
 
 ``` r
 rmarkdown::render("README.Rmd",output_format = "github_document")

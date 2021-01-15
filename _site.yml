@@ -3,7 +3,7 @@ navbar:
   title: "HOME"
   left:
     - text: "README"
-      href: readme.html
+      href: README.html
 #    - text: "First Observations"
 #      href: first_observations.html
 #    - text: "Basic Workflow"
