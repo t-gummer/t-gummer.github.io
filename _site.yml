@@ -2,8 +2,8 @@ name: "Timothy Gummer's Website"
 navbar:
   title: "HOME"
   left:
-#    - text: "README"
-#      href: readme.html
+    - text: "README"
+      href: readme.html
     - text: "First Observations"
       href: first_observations.html
     - text: "Basic Workflow"
