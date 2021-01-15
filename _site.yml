@@ -10,6 +10,11 @@ navbar:
       href: getting_sophisticated.html
     - text: "Your Turn"
       href: your_turn.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:timothy.gummer@gmail.com
+    - icon: fa-github fa-lg
+      href: http://github.com/t-gummer/
 output_dir: "."
 output:
   html_document:
