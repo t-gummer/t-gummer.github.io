@@ -1,7 +1,9 @@
-name: "R Markdown Websites Tutorial"
+name: "Timothy Gummer's Website"
 navbar:
   title: "HOME"
   left:
+#    - text: "README"
+#      href: readme.html
     - text: "First Observations"
       href: first_observations.html
     - text: "Basic Workflow"
@@ -18,7 +20,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: yeti
-    highlight: textmate
+    theme: journal
+#    highlight: darkly
 #    include:
 #      after_body: _footer.html
