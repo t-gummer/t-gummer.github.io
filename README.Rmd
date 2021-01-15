@@ -1,15 +1,16 @@
 ---
-title: "[t-gummer.github.io](http://t-gummer.github.io)"
-output: github_document
-#        html_document:
-#          fig_width: 1
+output: 
+  html_document:
+    keep_md: true
 ---
 
-# A Website Using R!
+# [t-gummer.github.io](http://t-gummer.github.io)
 
-This is a template for creating websites using R. To build the website, run [`rmarkdown::render_site()`](http://rmarkdown.rstudio.com/rmarkdown_websites.html). This website is hosted via [Github Pages](https://pages.github.com/).
+## An R Markdown Website!
 
-# Sources
+To build the website, run [`rmarkdown::render_site()`](http://rmarkdown.rstudio.com/rmarkdown_websites.html). This website is hosted via [Github Pages](https://pages.github.com/).
+
+## Sources
 
 - https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html
 - https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html

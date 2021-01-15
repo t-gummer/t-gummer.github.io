@@ -4,14 +4,14 @@ navbar:
   left:
     - text: "README"
       href: readme.html
-    - text: "First Observations"
-      href: first_observations.html
-    - text: "Basic Workflow"
-      href: basic_workflow.html
-    - text: "Getting Sophisticated"
-      href: getting_sophisticated.html
-    - text: "Your Turn"
-      href: your_turn.html
+#    - text: "First Observations"
+#      href: first_observations.html
+#    - text: "Basic Workflow"
+#      href: basic_workflow.html
+#    - text: "Getting Sophisticated"
+#      href: getting_sophisticated.html
+#    - text: "Your Turn"
+#      href: your_turn.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:timothy.gummer@gmail.com

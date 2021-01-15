@@ -10,10 +10,13 @@ output:
 
 This is my personal website!
 
-```{r}
-print("Hello World")
-```
-
-
 ----
+
+Install my R package, [`RADins`](https://github.com/t-gummer/RADins):
+
+```{r, eval=FALSE}
+# install.packages("devtools")  #In case you have not installed it.
+devtools::install_github("t-gummer/RADins")
+
+```
 
