@@ -1,18 +1,19 @@
-name: "my-website"
-output_dir: docs
+name: "R Markdown Websites Tutorial"
 navbar:
-  title: "My Website"
+  title: "HOME"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-  right: 
-    - icon: fa-envelope fa-lg
-      href: mailto:timothy.gummer@gmail.com
-    - icon: fa-github fa-lg
-      href: http://github.com/t-gummer/
+    - text: "First Observations"
+      href: first_observations.html
+    - text: "Basic Workflow"
+      href: basic_workflow.html
+    - text: "Getting Sophisticated"
+      href: getting_sophisticated.html
+    - text: "Your Turn"
+      href: your_turn.html
+output_dir: "."
 output:
   html_document:
-    theme: darkly
-      
+    theme: yeti
+    highlight: textmate
+#    include:
+#      after_body: _footer.html
