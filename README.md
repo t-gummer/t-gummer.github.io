@@ -6,6 +6,8 @@
 To build the website, run
 [`rmarkdown::render_site()`](http://rmarkdown.rstudio.com/rmarkdown_websites.html).
 This website is hosted via [Github Pages](https://pages.github.com/).
+The source is available at
+<https://github.com/t-gummer/t-gummer.github.io>.
 
 # Sources
 
@@ -15,9 +17,9 @@ This website is hosted via [Github Pages](https://pages.github.com/).
 
 # Updating the README
 
-Due to weird compatability issues with README’s in RMarkdown website,
-use the following after updating the README (followed by a build of the
-the website).
+Due to the unusual fact that README’s in R Markdown websites, use the
+following after updating the README (followed by a build of the the
+website):
 
 ``` r
 rmarkdown::render("README.Rmd", output_format = "html_document")
