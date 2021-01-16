@@ -11,6 +11,7 @@ devtools::install_github(repo = "t-gummer/RADins")
 
 ```{r}
 require(RADins)
+
 ```
 
 

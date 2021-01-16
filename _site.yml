@@ -5,13 +5,15 @@ navbar:
     - text: "README"
       href: README.html
     - text: "Projects"
-      href: Projects/index.html
       menu:
         - text: "RADins R Package"
           href: RADins.html
         - text: "Document Templates"
-          href: Projects/Templates.html
-          
+          href: Templates.html
+    - text: "Articles"
+      menu:
+        - text: "Only an idea"
+          href: article.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:timothy.gummer@gmail.com

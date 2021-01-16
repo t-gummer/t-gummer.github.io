@@ -16,8 +16,11 @@ output:
 
 This is my personal website!
 
+> R programming
 
-> <center>  R | $\LaTeX$ | VBA </center>
+> $\LaTeX$ typesetting
+
+> VBA macro scripting 
 
 ----
 
