@@ -1,14 +1,23 @@
 ---
 title: "A Website Built Using R"
-author:  "[Tim Gummer](https://github.com/t-gummer), 16/01/2021"
+author:  "[Tim Gummer](https://github.com/t-gummer)"
+date: "`r format(file.info('Index.Rmd')$mtime, '%d %B, %Y')`"
 output:
   html_document:
     fig_width: 1
 ---
 
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+
+```
+
+
 ----
 
 This is my personal website!
+
+
+> <center>  R | $\LaTeX$ | VBA </center>
 
 ----
 
@@ -16,7 +25,7 @@ Install my R package, [`RADins`](https://github.com/t-gummer/RADins):
 
 ```{r, eval=FALSE}
 # install.packages("devtools")  #In case you have not installed it.
-devtools::install_github("t-gummer/RADins")
+devtools::install_github(repo = "t-gummer/RADins")
 
 ```
 

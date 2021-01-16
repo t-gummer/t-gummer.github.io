@@ -1,0 +1,19 @@
+---
+title: "The RADins R Package"
+---
+
+
+```{r, eval=FALSE}
+# install.packages("devtools")  #In case you have not installed it.
+devtools::install_github(repo = "t-gummer/RADins")
+
+```
+
+```{r}
+require(RADins)
+```
+
+
+This page will contain details and usage of the RADins R package.
+
+

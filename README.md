@@ -20,5 +20,6 @@ use the following after updating the README (followed by a build of the
 the website).
 
 ``` r
-rmarkdown::render("README.Rmd",output_format = "github_document")
+rmarkdown::render("README.Rmd", output_format = "html_document")
+rmarkdown::render("README.Rmd", output_format = "github_document")
 ```

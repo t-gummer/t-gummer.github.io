@@ -4,14 +4,14 @@ navbar:
   left:
     - text: "README"
       href: README.html
-#    - text: "First Observations"
-#      href: first_observations.html
-#    - text: "Basic Workflow"
-#      href: basic_workflow.html
-#    - text: "Getting Sophisticated"
-#      href: getting_sophisticated.html
-#    - text: "Your Turn"
-#      href: your_turn.html
+    - text: "Projects"
+      href: Projects/index.html
+      menu:
+        - text: "RADins R Package"
+          href: RADins.html
+        - text: "Document Templates"
+          href: Projects/Templates.html
+          
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:timothy.gummer@gmail.com
@@ -21,6 +21,6 @@ output_dir: "."
 output:
   html_document:
     theme: journal
-#    highlight: darkly
-#    include:
-#      after_body: _footer.html
+    highlight: zenburn
+    include:
+      after_body: _footer.html
