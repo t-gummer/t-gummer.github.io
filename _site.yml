@@ -9,7 +9,7 @@ navbar:
         - text: "RADins R Package"
           href: RADins.html
         - text: "Document Templates"
-          href: templates.html
+          href: Templates.html
     - text: "Articles"
       menu:
         - text: "Only an idea"

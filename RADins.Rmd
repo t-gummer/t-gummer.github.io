@@ -1,5 +1,5 @@
 ---
-title: "The `RADins` R Package"
+title: "The [`RADins`](https://github.com/t-gummer/RADins) R Package"
 ---
 
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
