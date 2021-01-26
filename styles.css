@@ -1,0 +1,78 @@
+/* Apply to all: */
+::selection {
+  background: deeppink;
+  color: gold;
+}
+
+/* Dark mode button: */
+
+button.toggle-dm { 
+    background:none;
+    border:none; 
+    color: lightslategray;
+}
+
+/* Dark mode: */
+
+body.dark-mode {
+    background-color: rgb(26, 29, 28);
+    color:blanchedalmond;
+}
+
+blockquote.dark-mode {
+    border-left: 5px solid rgb(141,124,107);
+}
+
+h1.dark-mode,
+h2.dark-mode,
+h3.dark-mode,
+h4.dark-mode,
+h5.dark-mode,
+h6.dark-mode,
+.h1 .dark-mode,
+.h2 .dark-mode,
+.h3 .dark-mode,
+.h4 .dark-mode,
+.h5 .dark-mode,
+.h6 .dark-mode {
+    color:mediumturquoise;
+}
+
+.dark-mode .navbar-default {
+    background-color: rgb(74, 100, 90);
+    border-color: rgb(75, 82, 79);
+}
+
+.dark-mode .navbar-default .navbar-toggle {
+    border-color: rgb(75, 82, 79);
+}
+
+.dark-mode .navbar-default .navbar-nav > .open > a, 
+.dark-mode .navbar-default .navbar-nav > .open > a:hover,
+.dark-mode .navbar-default .navbar-nav > .open > a:focus,
+.dark-mode.navbar-default .navbar-brand:hover, 
+.dark-mode.navbar-default .navbar-brand:focus,
+.dark-mode.navbar-default .navbar-nav > li > a:hover, 
+.dark-mode .navbar-default .navbar-nav > li > a:focus,
+.dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color:blanchedalmond;
+    background-color: rgb(26, 29, 28);
+}
+
+.dark-mode .dropdown-menu,
+.dark-mode .navbar-default .navbar-brand,
+.dark-mode .navbar-default .navbar-nav > li > a,
+.dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color:mediumturquoise;
+    background-color: rgb(74, 100, 90);
+}
+
+.dark-mode .navbar-default .navbar-toggle:hover, 
+.dark-mode .navbar-default .navbar-toggle:focus {
+    background-color: rgb(26, 29, 28);
+}
+
+/* code.dark-mode {
+    background-color: rgba(0, 0, 0, 0.2);
+} */

@@ -1,7 +1,10 @@
 ---
-title: "The RADins R Package"
+title: "The `RADins` R Package"
 ---
 
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
 
 ```{r, eval=FALSE}
 # install.packages("devtools")  #In case you have not installed it.
@@ -14,7 +17,4 @@ require(RADins)
 
 ```
 
-
 This page will contain details and usage of the RADins R package.
-
-

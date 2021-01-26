@@ -62,6 +62,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -279,19 +280,19 @@ $(document).ready(function () {
       <a href="RADins.html">RADins R Package</a>
     </li>
     <li>
-      <a href="Templates.html">Document Templates</a>
+      <a href="templates.html">Document Templates</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Article
+    Articles
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="article.html">To Come</a>
+      <a href="article.html">Only an idea</a>
     </li>
   </ul>
 </li>
@@ -330,6 +331,30 @@ $(document).ready(function () {
 <!-- /.bottom-menu -->
 	<p class="copyright">&#169; 2021,
 		powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com">RMarkdown</a> + <a href="http://github.com">Github</a>.</p>
+
+<button onclick="toggleDarkMode()" class = "toggle-dm"><span class="fa fa-moon-o fa-lg"></span> Toggle dark mode (experimental)</button>
+
+
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");  
+  
+  const array = ["blockquote", "div", "h1", "h2", "h3", "h4", "h5", "h6", "button","code"]
+  
+   array.forEach(function (item, index) {
+    var x = document.getElementsByTagName(item);
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.toggle("dark-mode");
+    }
+  });
+
+  
+}
+
+toggleDarkMode();
+
+</script>
+
 </footer>
 
 

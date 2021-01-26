@@ -27,7 +27,7 @@ This is my personal website!
 Install my R package, [`RADins`](https://github.com/t-gummer/RADins):
 
 ```{r, eval=FALSE}
-# install.packages("devtools")  #In case you have not installed it.
+# install.packages("devtools")  ## In case you have not installed it.
 devtools::install_github(repo = "t-gummer/RADins")
 
 ```
