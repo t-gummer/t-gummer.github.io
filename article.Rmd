@@ -1,10 +1,5 @@
 ---
 title: "Articles"
-output:
-  html_document:
-    includes:
-      in_header: _comment_header.html
-      after_body: _comment_doc_suffix.html
 ---
 
 I might write some articles here or something.

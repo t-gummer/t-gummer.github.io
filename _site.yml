@@ -26,4 +26,5 @@ output:
     theme: journal
     highlight: zenburn
     include:
+      in_header: _comment_header.html
       after_body: _footer.html

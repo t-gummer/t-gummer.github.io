@@ -22,6 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -352,8 +354,22 @@ function toggleDarkMode() {
 }
 
 toggleDarkMode();
-
 </script>
+
+<script>
+  const gitalk = new Gitalk({
+    clientID: '540a2b0605438905f73a',
+    clientSecret: 'a4d90a5f7d4db68d58e27724daae68171b2b3363',
+    repo: 'my-website-comments',
+    owner: 't-gummer',
+    admin: ['t-gummer'],
+    id: location.pathname,
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
 
 </footer>
 
