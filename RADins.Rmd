@@ -17,4 +17,4 @@ require(RADins)
 
 ```
 
-This page will contain details and usage of the RADins R package.
+This page will contain details and usage of the `RADins` R package.
