@@ -18,10 +18,8 @@ The source is available at
 # Updating the README
 
 Due to the unusual fact that README’s in R Markdown websites, use the
-following after updating the README (followed by a build of the the
-website):
+following after updating the README:
 
 ``` r
-rmarkdown::render("README.Rmd", output_format = "html_document")
-rmarkdown::render("README.Rmd", output_format = "github_document")
+rmarkdown::render("README_source.Rmd", output_file = "README.md", output_format = "github_document")
 ```

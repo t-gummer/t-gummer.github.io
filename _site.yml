@@ -3,7 +3,7 @@ navbar:
   title: "HOME"
   left:
     - text: "README"
-      href: README.html
+      href: README_source.html
     - text: "Projects"
       menu:
         - text: "RADins R Package"
