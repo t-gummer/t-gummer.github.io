@@ -57,15 +57,22 @@ h6.dark-mode,
 .dark-mode .navbar-default .navbar-nav > li > a:focus,
 .dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color:blanchedalmond;
+    color:mediumturquoise;
     background-color: rgb(26, 29, 28);
 }
+
+
+.dark-mode .navbar-default .navbar-nav > li.active > a,
+.dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li.active > a {
+    color:mediumturquoise;
+}
+
 
 .dark-mode .dropdown-menu,
 .dark-mode .navbar-default .navbar-brand,
 .dark-mode .navbar-default .navbar-nav > li > a,
 .dark-mode .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color:mediumturquoise;
+    color:blanchedalmond;
     /* background-color: rgb(74, 100, 90); */
     background-color: rgb(74, 98, 100);
 }
@@ -77,7 +84,7 @@ h6.dark-mode,
 
 .dark-mode .gt-container {
     background-color: rgb(200, 213, 216);
-    color: black;
+    color: #777777;
 }
 
 /* textarea {
