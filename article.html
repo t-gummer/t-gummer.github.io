@@ -22,6 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -328,37 +330,24 @@ $(document).ready(function () {
 <blockquote>
 <p>Maybe?</p>
 </blockquote>
+<div id="gitalk-container">
 
-<footer role="contentinfo" id="site-footer">
-
-<!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2021,
-		powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com">RMarkdown</a> + <a href="http://github.com">Github</a>.</p>
-
-<button onclick="toggleDarkMode()" class = "toggle-dm"><span class="fa fa-moon-o fa-lg"></span> Toggle dark mode (experimental)</button>
-
+</div>
+<!-- https://www.brianemilius.com/static-site-comments/?fbclid=IwAR2__y8rvsK2D7SJIul9e-j4kkojdEEkhUdTqofrecVTff5X-xPiCAP9LDQ -->
 
 <script>
-function toggleDarkMode() {
-  document.body.classList.toggle("dark-mode");  
-  
-  const array = ["blockquote", "div", "h1", "h2", "h3", "h4", "h5", "h6", "button","code"]
-  
-   array.forEach(function (item, index) {
-    var x = document.getElementsByTagName(item);
-    for (var i = 0; i < x.length; i++) {
-      x[i].classList.toggle("dark-mode");
-    }
-  });
+    const gitalk = new Gitalk({
+        clientID: '540a2b0605438905f73a',
+        clientSecret: 'a4d90a5f7d4db68d58e27724daae68171b2b3363',
+        repo: 'my-website-comments',
+        owner: 't-gummer',
+        admin: ['t-gummer'],
+        id: location.pathname,
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    })
 
-  
-}
-
-toggleDarkMode();
-
+    gitalk.render('gitalk-container')
 </script>
-
-</footer>
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: "Articles"
+output:
+  html_document:
+    includes:
+      in_header: _comment_header.html
+      after_body: _comment_doc_suffix.html
 ---
 
 I might write some articles here or something.
 
 > Maybe?
 
+<div id="gitalk-container"></div>
+
+
+<!-- https://www.brianemilius.com/static-site-comments/?fbclid=IwAR2__y8rvsK2D7SJIul9e-j4kkojdEEkhUdTqofrecVTff5X-xPiCAP9LDQ -->
