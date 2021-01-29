@@ -330,6 +330,8 @@ $(document).ready(function () {
 
 <footer role="contentinfo" id="site-footer">
 
+  <hr>
+  
 <!-- /.bottom-menu -->
 	<p class="copyright">&#169; 2021,
 		powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com">RMarkdown</a> + <a href="http://github.com">Github</a>.</p>
@@ -341,7 +343,7 @@ $(document).ready(function () {
 function toggleDarkMode() {
   document.body.classList.toggle("dark-mode");  
   
-  const array = ["blockquote", "div", "h1", "h2", "h3", "h4", "h5", "h6", "button","code"]
+  const array = ["blockquote", "div", "h1", "h2", "h3", "h4", "h5", "h6", "button", "code"]
   
    array.forEach(function (item, index) {
     var x = document.getElementsByTagName(item);
@@ -356,6 +358,7 @@ function toggleDarkMode() {
 toggleDarkMode();
 </script>
 
+
 <script>
   const gitalk = new Gitalk({
     clientID: '540a2b0605438905f73a',
@@ -368,6 +371,7 @@ toggleDarkMode();
   })
 
   gitalk.render('gitalk-container')
+
 </script>
 
 
